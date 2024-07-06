@@ -1,0 +1,106 @@
+/* discount-banner */
+.discountbannercontainer{
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .discountbanner{
+    width: 90%;
+    background-color:#03519d;
+    height: 80%;
+    border-radius: 3rem;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 3rem;
+  }
+  
+  .discountimage{
+    width: 40%;
+  }
+  
+  
+  
+  .discountcontent{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .discountcontent>h1{
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .discountbutton>button{
+    background-color: white;
+    color: rgb(68, 66, 66);
+    width: 11rem;
+    height: 3rem;
+    padding: 0rem 0.2rem;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 1.1rem;
+  }
+  
+  .discountbutton>button:hover{
+    background-color: #03519d;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+
+
+    /* how to order  */
+    .howtoorder{
+      background-image: url(../../public/pictures/work-bg-01.png),url(../../public/pictures/work-bg-01.png);
+      background-repeat: no-repeat;
+      background-position: left center, right 0 bottom 25%;
+      background-position-x: left, right 0px;
+      background-position-y: center, bottom 25%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .articlecard{
+      cursor: pointer;
+    }
+
+
+  @media (max-width: 500px) {
+    .discountimage{
+      display: none;
+    }
+  
+    .discountbanner{
+      width: 100%;
+      background-color:#03519d;
+      height: 80%;
+      border-radius: 0rem;
+      display: block;
+      padding: 0.2rem 1rem;
+    }
+  
+    .discountcontent{
+      width: 100%;
+      height: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+    }
+  }
+  

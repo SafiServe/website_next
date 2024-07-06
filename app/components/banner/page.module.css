@@ -1,0 +1,111 @@
+/* Banner CSS */
+.herosection {
+    height:100%;
+  }
+  
+  .herosection {
+    background-image: url(../../../public/pictures/banner-right.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .orderonwhatsappbutton{
+    background-color: #37a05d;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  .imagediv1 {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    animation: floatAnimation1 3s infinite alternate; 
+  }
+  
+  .imagediv2 {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    /* background-color: black; */
+    animation: floatAnimation2 3s infinite alternate; 
+  }
+  
+  .imagediv3 {
+    width: 160px;
+    height: 160px;
+    /* border-radius: 50%; */
+    animation: floatAnimation3 3s infinite alternate; 
+  }
+  
+  .imagediv4 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    animation: floatAnimation4 3s infinite alternate; 
+  }
+  
+  /* @keyframes floatAnimation1 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(20px); 
+      transform: translateX(20px);
+    }
+  }
+  
+  @keyframes floatAnimation2 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px); 
+    }
+  }
+  
+  @keyframes floatAnimation3 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-25px); 
+    }
+  }
+  
+  @keyframes floatAnimation4 {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(15px); 
+    }
+  } */
+  
+  .bannerimage {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+
+  @media (max-width: 500px) {
+    .bannerimagecontainer{
+      display:none;
+    }
+  
+    .bannerbutton{
+      /* background-color: red; */
+      justify-content: center;
+      
+    }
+  }

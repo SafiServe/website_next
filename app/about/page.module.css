@@ -1,0 +1,173 @@
+.section1container {
+    height: 100vh;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section1 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.section1image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1image img {
+    height: 80%;
+    width: auto;
+    position: relative; /* Add this */
+}
+
+
+.section1content {
+    width: 50%;
+    height: 100%;
+}
+
+.section1head1 {
+    color: #03519d;
+    font-weight: 600;
+}
+
+.semihead {
+    color: #3f3f3f;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+
+
+.section2container {
+    height: 90%;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.questions{
+    width:50%;
+
+}
+
+.section2image{
+    width:50%;
+    height: 70%;
+    padding: 6.5rem;
+    /* margin-left: 20rem; */
+}
+
+.section2image img{
+    /* padding: 2.4rem; */
+    margin-top: 3rem;
+}
+
+
+.section3container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3{
+    min-height: 90vh;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section3 h1{
+    /* width: 80%; */
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    padding: 2rem;
+}
+
+.cardsection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 3rem;
+    padding: 2rem;
+    /* border: 1px solid rebeccapurple; */
+    overflow: hidden;
+}
+
+.section3 .secondh1{
+    text-align: center;
+}
+
+
+
+@media (max-width: 500px) {
+    .aboutuspage {
+        height: 80vh;
+        font-size: 1rem;
+    }
+    .section1 {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+.cardsection{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    /* grid-gap: 3rem; */
+    padding: 0rem;
+    /* border: 1px solid rebeccapurple; */
+    overflow: hidden;
+}
+
+.section1image {
+    display: none;
+}
+
+.section1content {
+    width: 100%;
+}
+
+.section1head1 {
+    color: #03519d;
+    font-weight: 600;
+}
+
+.section1head2 {
+    color: #3f3f3f;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+
+.section2-container {
+    height: 90%;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1rem;
+    display: block;
+    
+}
+
+.section2-image{
+    display:none;
+}
+
+.questions{
+    width:100%;
+
+}
+}
