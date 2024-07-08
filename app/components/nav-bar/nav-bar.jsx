@@ -46,20 +46,19 @@ export default function NavBar() {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
+  const handleNavItemClick = () => {
+    setIsMobileMenuOpen(false);
+  };
+
   return (
     <section
       className={`flex justify-around px-5 py-4 bg-white shadow-sm ${styles.header}`}
     >
-      {!isMobileMenuOpen && (
-        <div
-          className={`${styles.mobilemenutoggle}`}
-          onClick={toggleMobileMenu}
-        >
-          <div className={`${styles.menuicon}`}></div>
-          <div className={`${styles.menuicon}`}></div>
-          <div className={`${styles.menuicon}`}></div>
-        </div>
-      )}
+      <div className={`${styles.mobilemenutoggle}`} onClick={toggleMobileMenu}>
+        <div className={`${styles.menuicon}`}></div>
+        <div className={`${styles.menuicon}`}></div>
+        <div className={`${styles.menuicon}`}></div>
+      </div>
 
       <div>
         <Link href="/">
@@ -73,16 +72,16 @@ export default function NavBar() {
           styles.navlist
         } ${isMobileMenuOpen ? styles.mobilemenuopen : ""}`}
       >
-        <div className={`${styles.navitem}`}>
+        <div className={`${styles.navitem}`} onClick={handleNavItemClick}>
           <Link href="/">Home</Link>
         </div>
-        <div className={`${styles.navitem}`}>
+        <div className={`${styles.navitem}`} onClick={handleNavItemClick}>
           <Link href="/about">About</Link>
         </div>
-        <div className={`${styles.navitem}`}>
+        <div className={`${styles.navitem}`} onClick={handleNavItemClick}>
           <Link href="/faqs">FAQs</Link>
         </div>
-        <div className={`${styles.navitem}`}>
+        <div className={`${styles.navitem}`} onClick={handleNavItemClick}>
           <Link href="/blog">Blog</Link>
         </div>
       </nav>

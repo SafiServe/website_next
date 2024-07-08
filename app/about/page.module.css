@@ -24,7 +24,7 @@
 .section1image img {
     height: 80%;
     width: auto;
-    position: relative; /* Add this */
+    position: relative; 
 }
 
 
@@ -121,7 +121,7 @@
     width: 100%;
     margin: 0 auto;
     display: block;
-    
+    height:50%;
 }
 
 .cardsection{
@@ -134,7 +134,12 @@
 }
 
 .section1image {
-    display: none;
+   display:none;
+   width: 0px;
+   height: 1px;
+   padding:0px;
+   margin:0px;
+   
 }
 
 .section1content {
@@ -154,7 +159,7 @@
 
 
 .section2-container {
-    height: 90%;
+    height: 50%;
     width: 100%;
     margin: 0 auto;
     font-size: 1rem;
@@ -162,12 +167,19 @@
     
 }
 
-.section2-image{
+.menu{
     display:none;
+}
+
+.section2-image{
+    /* display:none; */
+    width: 1px;
+    height: 1px;
 }
 
 .questions{
     width:100%;
+    border: 1px solid red;
 
 }
 }

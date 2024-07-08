@@ -122,8 +122,8 @@ const PostPage = () => {
             <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl lg:leading-[3.5rem]">
               {post.title}
             </h1>
-            <div className="flex items-center justify-between text-sm text-gray-500 mb-4 bg-red">
-              <div className="mt-24">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between text-sm text-gray-500 mb-4 bg-red p-4">
+              <div className="flex items-center mb-2 sm:mb-0">
                 <span>
                   <UserOutlined
                     style={{
@@ -147,7 +147,7 @@ const PostPage = () => {
                 </span>
                 <time dateTime="2023-01-01">{post.date}</time>
               </div>
-              <span className="flex space-x-4 mr-4">
+              <span className="flex space-x-4 mt-2 sm:mt-0">
                 <TwitterOutlined
                   style={{
                     fontSize: "1rem",
@@ -161,7 +161,6 @@ const PostPage = () => {
                   style={{
                     fontSize: "1.2rem",
                     color: "#03519d",
-                    // backgroundColor: "#03519d",
                   }}
                   onClick={() => shareArticle("facebook", post)}
                 />

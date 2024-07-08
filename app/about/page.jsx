@@ -64,7 +64,7 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className={`${styles.section2container} pt-0 text-gray-500`}>
+      <div className={`${styles.section2container} ${styles.menu} pt-0 text-gray-500`}>
         <section className={`bg-white py-12 ${styles.questions}`}>
           <div className={`${styles.container} mx-auto px-4`}>
             <h2
@@ -159,7 +159,7 @@ export default function AboutUs() {
       </div>
       <div className={`${styles.section1container} pt-0 text-gray-500`}>
         <div className={`${styles.section1}`}>
-          <div className={`${styles.section1image} pt-8 px-4`}>
+          <div className={`${styles.section1image} pt-8 px-4 sm:pt-2 `}>
             <ImageWithLoader
               src={laundry}
               alt="Laundry"
