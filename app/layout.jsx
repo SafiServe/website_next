@@ -51,9 +51,9 @@ export default function RootLayout({ children }) {
         <Footer />
         {/* <!-- tidio script --> */}
         <script
-            src="//code.tidio.co/wvbamz3metmq0ilfymyqoz5zsrvx9lpv.js"
-            async
-          ></script>
+          src="//code.tidio.co/wvbamz3metmq0ilfymyqoz5zsrvx9lpv.js"
+          async
+        ></script>
       </body>
     </html>
   );
