@@ -3,20 +3,26 @@
     flex-direction: row;
     /* flex-wrap: wrap; */
     gap:1rem;
-    width: 80%;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .footercontainer>div{
     padding: 2rem 1rem;
 }
 
+
 .aboutus{
     width: 26%;
 }
 
-.quicklinks,.contacts{
-    width: 20%;
+.quicklinks{
+    width: 18%;
+}
+.contacts{
+    width: 22%;
 }
 
 .socials{
@@ -27,8 +33,13 @@
     width: 100%;
 }
 
+
 .contacts>ul>li, .quicklinks>ul>li{
     padding: 0.5rem 0;
+    white-space: nowrap;
+}
+.quicklinks h3 {
+    white-space: nowrap;
 }
 
 .aboutus{
@@ -42,10 +53,10 @@
 .privacy{
     display: flex;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
     margin-top: 0.2rem;
     color: rgb(196, 196, 196);
 }

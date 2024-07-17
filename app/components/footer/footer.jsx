@@ -71,7 +71,7 @@ const Footer = () => {
           <ul className="text-sm">
             <li>
               <FontAwesomeIcon icon={faPhone} className="mr-2" />
-              0772069708
+              +256772069708
             </li>
             <li>
               <FontAwesomeIcon icon={faEnvelope} className="mr-2" />
@@ -79,7 +79,7 @@ const Footer = () => {
             </li>
             <li>
               <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
-              AAA Complex Kisaasi
+              AAA Complex Bukoto, <br/>&emsp;{' '}Kampala, Uganda
             </li>
           </ul>
         </div>
@@ -145,6 +145,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Your email"
+                required={true}
                 className="bg-gray-800 text-white py-2 px-4 rounded-l-md focus:outline-none focus:ring focus:border-blue-300"
               />
               <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-r-md focus:outline-none focus:ring focus:border-blue-300">
