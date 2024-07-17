@@ -72,9 +72,15 @@
       align-items: center;
       justify-content: center;
     }
-  
+  .blogList{
+    width: 100%;
+  }
     .articlecard{
       cursor: pointer;
+      width: 100%;
+    }
+    .articleimage{
+      width: 100%;
     }
 
 

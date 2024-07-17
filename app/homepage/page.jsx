@@ -79,7 +79,7 @@ export default function HomePage() {
               <h3 className="text-xl text-center font-semibold mb-4">
                 Latest Articles
               </h3>
-              <div className="flex flex-wrap justify-center gap-4 px-4">
+              <div className={`flex flex-wrap justify-center gap-4 px-4 ${styles.blogList}`}>
                 {latestPosts.map((article) => (
                   <BlogPost key={article.id} article={article} />
                 ))}
@@ -99,15 +99,13 @@ const BlogPost = ({ article }) => {
       <div
         className={`max-w-sm w-full bg-gray-100 border border-gray-200 shadow-md ${styles.articlecard}`}
       >
-        <div>
           <Image
             src={article.thumbnail}
             alt={article.title}
-            width={382}
-            height={170}
-            className="object-cover"
+            // width={'30vw'}
+            // height={170}
+            className={`object-cover ${styles.articleimage}`}
           />
-        </div>
 
         <div className="p-5">
           <h3 className="text-2xl font-bold tracking-tight text-gray-900 line-clamp-2">
