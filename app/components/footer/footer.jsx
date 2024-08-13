@@ -13,6 +13,7 @@ import {
   faTiktok,
   faWhatsapp,
   faLinkedin,
+  faXTwitter
 } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,14 +29,14 @@ const Footer = () => {
           <Image
             alt="logo"
             src={whitelogo}
-            height={68}
+            height={60}
             style={{
               // height: "50px",
             }}
           />
           <p className="text-sm mt-4">
-            Your one-stop destination for all your home needs. Get trusted
-            laundry, cleaning services and more right at your door-step!
+          The fastest, & most affordable way to order  <br/>reliable services,
+          via WhatsApp! No extra app to install.
           </p>
         </div>
 
@@ -109,7 +110,7 @@ const Footer = () => {
               rel="noreferrer"
             >
               <FontAwesomeIcon
-                icon={faTwitter}
+                icon={faXTwitter}
                 className={`${styles.mediaicon}`}
               />
             </a>
