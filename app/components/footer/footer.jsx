@@ -28,8 +28,9 @@ const Footer = () => {
           <Image
             alt="logo"
             src={whitelogo}
+            height={68}
             style={{
-              height: "50px",
+              // height: "50px",
             }}
           />
           <p className="text-sm mt-4">
