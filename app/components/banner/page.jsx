@@ -26,8 +26,8 @@ export default function Banner() {
             <br />
           </h1>
           <p className="text-lg text-gray-600 mb-6">
-            Your one-stop destination for all your home needs. Get trusted
-            laundry, cleaning services and more right at your door-step!
+            The fastest, & most affordable way to order  <br/>reliable services, 
+          via WhatsApp! No extra app to install.
           </p>
           <div className={`flex items-center gap-4 ${styles.bannerbutton}`}>
             <a
