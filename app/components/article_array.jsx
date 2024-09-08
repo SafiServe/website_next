@@ -9,10 +9,87 @@ import banner1 from "../../public/pictures/man-with-tank-reservoir-his-back-spra
 import banner1_sm from "../../public/pictures/man-with-tank-reservoir-his-back-spraying-disinfectant-stop-corona-virus-resize.webp";
 import hair2 from "../../public/pictures/stylist-woman-taking-care-her-client-afro-hair-ezgif.com-resize.webp";
 import hair2_sm from "../../public/pictures/stylist-woman-taking-care-her-client-afro-hair.-ezgif.com-resize.webp";
+import shoes from "../../public/pictures/shoe-cleaning.jpg";
+import sofa from "../../public/pictures/Sofa-Cleaning.jpg";
 
 const articles = [
   {
     id: 1,
+    thumbnail: shoes,
+    slug: "8-tips-for-cleaning-sneakers-and-shoes-in-the-rainy-season",
+    title: "8 Tips for Cleaning Sneakers and Shoes in the Rainy Season",
+    date: "August 20, 2024",
+    author: "Bujjada David",
+    content: `The rainy season can be tough on your footwear. Mud, water, and grime can quickly turn your stylish kicks into a muddy mess. But fear not! With a bit of care and some smart cleaning tips, you can keep your shoes looking fresh and new throughout the wet season. Here’s a comprehensive guide to help you maintain your footwear during the rainy days.<br><br>
+
+<strong>1. Dry Brush or Shake Off Excess Dirt</strong><br/>
+When you come in from the rain, don’t wait to clean your shoes. Use a soft brush or an old toothbrush to gently remove loose dirt and mud. You can also shake your shoes to dislodge any debris. This initial step prevents dirt from embedding deeper into the fabric, making the cleaning process easier.<br/><br/>
+
+<strong>2. Use Mild Soap and Water</strong><br/>
+For a thorough clean, mix a small amount of mild dish soap with warm water. Dip a soft cloth or sponge into the soapy solution and gently scrub your shoes. Avoid using harsh chemicals or abrasive brushes, as they can damage the material. For sneakers with fabric or mesh, a soft brush is perfect for getting into those hard-to-reach areas.<br><br>
+
+<strong>3. Clean the Soles Separately</strong><br/>
+The soles of your shoes often collect the most grime. Use a mixture of baking soda and water to scrub them clean. Baking soda acts as a gentle abrasive, lifting stains and dirt without damaging the material. For stubborn stains, a toothbrush dipped in the baking soda solution works wonders.<br><br>
+
+<strong>4. Dry Properly to Prevent Mold</strong><br/>
+After cleaning, drying your shoes correctly is crucial to prevent mold and mildew. Stuff them with newspaper or paper towels to help absorb moisture and retain their shape. Avoid direct heat sources like radiators or hair dryers, as they can warp the material. Instead, let them air dry in a well-ventilated area away from direct sunlight.<br><br>
+
+<strong>5. Condition Leather and Suede</strong><br/>
+If your shoes are made of leather or suede, they require special care. Use a leather conditioner to keep the material supple and prevent cracking. For suede, a suede brush can help restore its nap and remove any dirt. Always test any product on a small, inconspicuous area first to ensure it doesn’t alter the color or texture.<br><br>
+
+<strong>6. Consider Waterproofing Inserts</strong><br/>
+If you’re frequently caught in the rain, consider using waterproofing inserts or insoles. These inserts provide an extra layer of protection against water and keep your feet dry. They’re especially useful for high-traffic shoes and can be easily removed and cleaned when needed.<br><br>
+
+<strong>7. Store Properly</strong><br/>
+When you’re not wearing your shoes, store them in a cool, dry place. Avoid keeping them in plastic bags or closed containers, as this can trap moisture and promote mold growth. A well-ventilated shoe rack or box is ideal for keeping your shoes in top shape.<br><br>
+
+<strong>8. Professional Cleaning Services</strong><br/>
+If your shoes are too stained or in need of a deep clean, consider professional cleaning services. Many shoe repair shops offer cleaning and refurbishing services, bringing your favorite pairs back to life.<br><br>
+
+<strong>Safiserve's Solution</strong><br/>
+Keeping your shoes clean during the rainy season can be a hassle, but Safiserve is here to help. Our comprehensive laundry service includes specialized shoe cleaning, ensuring your footwear stays in pristine condition no matter the weather. With our professional cleaning techniques and high-quality products, we take the burden off your shoulders and give your shoes the care they deserve. Let Safiserve handle the dirty work, so you can step out in style all season long. Contact us today to schedule your shoe cleaning service and experience the convenience and excellence of Safiserve!
+
+`,
+    imageSrc: [shoes, shoes],
+    imageAlt: "Cover image",
+    imageCaption: "author image",
+    authorImage: logo2,
+  },
+  {
+    id: 2,
+    thumbnail: sofa,
+    slug: "How-a-clean-sofa-can-transform-your-living-room",
+    title: "How a clean sofa can transform your living room",
+    date: "June 1, 2024",
+    author: "Bujjada David",
+    content: `Your sofa is the centerpiece of your living room!, a place to relax, entertain, and make memories. Over time, however, it can accumulate dirt, stains, and odors, diminishing its appearance and comfort. A clean sofa not only enhances the aesthetic appeal of your space but also contributes to a healthier living environment. Here’s how professional sofa cleaning can transform your living room, making it a more inviting and pleasant place to be.<br><br>
+
+<strong>1. Upgrade the room’s appearance</strong><br>
+Over the years, sofas can lose their luster, with fabric becoming dull and stains becoming more prominent. Professional sofa cleaning uses advanced techniques and high-quality cleaning solutions to restore the fabric’s original color and texture. This process can remove deep-seated dirt and grime that regular vacuuming and spot cleaning can’t reach, giving your sofa a fresh, vibrant look. The result? Your living room looks rejuvenated, and your sofa looks brand new.<br><br>
+
+<strong>2. Eliminate stains and odors</strong><br>
+Accidents happen, and stains from food, drinks, or pet accidents are common. Over time, these stains can become embedded in the fabric, leading to unpleasant odors and discoloration. Professional cleaning services utilize specialized stain removal techniques and eco-friendly products to tackle even the toughest stains. Additionally, deep cleaning removes accumulated grime and bacteria, significantly reducing odors and leaving your sofa smelling fresh.<br><br>
+
+<strong>3. Enhance comfort and longevity</strong><br>
+A clean sofa is not just about looks, it also enhances comfort. Dust, dirt, and allergens can accumulate in the upholstery, affecting the sofa’s texture and your comfort. Professional cleaning can restore the softness and plushness of your sofa, making it more inviting and comfortable to sit on. Moreover, regular cleaning extends the life of your sofa by preventing the buildup of dirt and grime that can cause wear and tear.<br><br>
+
+<strong>4. Improve indoor air quality</strong><br>
+Your sofa can be a breeding ground for dust mites, pet dander, and allergens, which can affect your indoor air quality and trigger allergies. Professional cleaning removes these allergens, improving the air quality in your living room. With a cleaner sofa, you and your family can breathe easier and enjoy a healthier living environment. This is especially beneficial for those with respiratory issues or allergies.<br><br>
+
+<strong>5. Boost the overall ambiance</strong><br>
+A clean sofa can significantly enhance the overall ambiance of your living room. It creates a sense of order and cleanliness, making your space more inviting and relaxing. Whether you’re hosting guests or enjoying a quiet evening at home, a well-maintained sofa adds to the comfort and aesthetic appeal of your living area. It’s a simple yet effective way to elevate the look and feel of your home.<br><br>
+
+</strong>Safiserve’s Solution</strong><br>
+At Safiserve, we understand the importance of a clean and comfortable living space. Our professional sofa cleaning service is designed to bring your sofa back to life, making your living room look and feel better than ever. Using state-of-the-art equipment and eco-friendly cleaning solutions, our experienced technicians ensure that every inch of your sofa is thoroughly cleaned, sanitized, and rejuvenated.<br><br>
+We offer a range of services tailored to meet your specific needs, from deep cleaning and stain removal to deodorizing and fabric protection. With Safiserve, you can rest assured that your sofa is in expert hands, delivering exceptional results and complete customer satisfaction.<br><br>
+Transform your living room today with Safiserve’s sofa cleaning service. Contact us to schedule your appointment and discover how a clean sofa can redefine your living space, making it a haven of comfort and style. Let Safiserve take care of the cleaning, so you can focus on enjoying your beautifully refreshed living room!`,
+    imageSrc: [sofa, sofa],
+    imageAlt: "Cover image",
+    imageCaption: "Image caption goes here",
+    authorImage: logo2,
+  },
+  {
+    id: 3,
     thumbnail: banner3_sm,
     slug: "Meet-Safiserve-your-personal-service-genie-in-a-WhatsApp-chat",
     title: "Meet Safiserve, your personal service genie, in a WhatsApp chat.",
@@ -37,7 +114,7 @@ const articles = [
     authorImage: logo2,
   },
   {
-    id: 2,
+    id: 4,
     thumbnail: banner2_sm,
     slug: "A-Guide-to-a-Sparkling-and-Germ-Free-Home",
     title: "A Guide to a Sparkling and Germ-Free Home.",
@@ -68,7 +145,7 @@ const articles = [
     authorImage: logo2,
   },
   {
-    id: 3,
+    id: 5,
     thumbnail: banner1_sm,
     slug: "Why-Do-I-Have-Cockroaches-Even-Though-My-House-is-Clean",
     title: "Why Do I Have Cockroaches, Even Though My House is Clean?",
